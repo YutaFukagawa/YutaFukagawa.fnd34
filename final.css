@@ -1,0 +1,39 @@
+/* document.getElementsByTagname("div")[0].style.width = 200; */
+
+/* document.div.style.width = 200; */
+
+/* #maepng {
+  width: 500px;
+}
+
+#atopng {
+  width: 500px;
+} */
+div {
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+  font-size:200%;
+  background-color: red;
+}
+
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+/* #ans {
+  align-items: center;
+  justify-content: center;
+} */
+
+#maepng {
+  cursor: not-allowed;
+}
+
+#atopng {
+  cursor: pointer;
+}
