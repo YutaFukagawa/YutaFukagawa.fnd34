@@ -1,39 +1,54 @@
-/* document.getElementsByTagname("div")[0].style.width = 200; */
-
-/* document.div.style.width = 200; */
-
-/* #maepng {
-  width: 500px;
+body {
+  background-color: rgb(186, 242, 242);
 }
 
-#atopng {
-  width: 500px;
-} */
-div {
+#title {
   text-align: center;
-  color: blue;
-  text-decoration: underline;
+  color: red;
   font-size:200%;
-  background-color: red;
+  background-color: orange;
+  font-family: "Nico Moji";
 }
 
+#howto {
+  text-align: center;
+  color: black;
+  /* text-decoration: underline;
+  font-size:200%; */
+  /* background-color: red; */
+  margin-top: 5px;
+}
+
+#src {
+  text-align: center;
+}
 
 ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
+  margin-top: 5px;
 }
 
-/* #ans {
-  align-items: center;
+#ans {
+  text-align: center;
   justify-content: center;
-} */
+}
 
-#maepng {
+#leftpng {
   cursor: not-allowed;
 }
 
-#atopng {
+#rightpng {
   cursor: pointer;
+}
+
+#tips {
+  text-align: left;
+  display: flex;
+  margin-left: 250px;
+}
+
+#tipsDisplay {
+  margin-left: 10px;
 }
