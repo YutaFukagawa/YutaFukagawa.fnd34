@@ -16,7 +16,6 @@ let flag5 = false;
 let flag6 = false;
 let flag7 = false;
 let flag8 = false;
-let flag9 = false;
 
 //回答開始判定フラグ
 let startFlag = false;
