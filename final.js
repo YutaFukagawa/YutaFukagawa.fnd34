@@ -93,7 +93,7 @@ const target = document.getElementById("rightPng");
 target.addEventListener("click", outputAns);
 
 //ヒント呼び出し
-const tips = document.getElementById("tips");
+const tips = document.getElementById("button");
 tips.addEventListener("click", tipFunc);
 
 
